@@ -173,7 +173,7 @@ namespace CS2_HideTeammates
 			}
 		}
 
-		[ConsoleCommand("css_ht", "Allows to hide players and choose the distance")]
+		[ConsoleCommand("css_hide", "Allows to hide players and choose the distance")]
 		[CommandHelper(minArgs: 0, usage: "", whoCanExecute: CommandUsage.CLIENT_ONLY)]
 		public void OnCommandHide(CCSPlayerController? player, CommandInfo command)
 		{
@@ -216,7 +216,7 @@ namespace CS2_HideTeammates
 			}
 		}
 
-		[ConsoleCommand("css_htall", "Allows to hide players and choose the distance")]
+		[ConsoleCommand("css_hideall", "Allows to hide players and choose the distance")]
 		[CommandHelper(minArgs: 0, usage: "", whoCanExecute: CommandUsage.CLIENT_ONLY)]
 		public void OnCommandHideAll(CCSPlayerController? player, CommandInfo command)
 		{
